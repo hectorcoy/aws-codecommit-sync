@@ -33,7 +33,7 @@ jobs:
           aws-region: us-east-1
 
       - name: Sync up to CodeCommit
-        uses: afinkorea/sync-up-to-codecommit-action@v1
+        uses: hectorcoy/aws-codecommit-syncv2@1.0.19
         with:
           repository_name: test_repo
           aws_region: ap-northeast-2
